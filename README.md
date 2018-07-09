@@ -1,14 +1,18 @@
-# scrape
+# BitScrape
 
-FIXME: description
+Clojure Application to scrape mining pools and calculate best mining returns based off scrapes and display them in order on an internal webpage.
+
+This is a little project started to a. help a friend out and b. learn more functions of Clojure.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+```bash
+lein deps
+
+lein run
+```
 
 ## Usage
-
-FIXME: explanation
 
     $ java -jar scrape-0.1.0-standalone.jar [args]
 
@@ -20,17 +24,17 @@ FIXME: listing of options this app accepts.
 
 ...
 
-### Bugs
+### Todo
 
-...
+Early iteration of the app so things may change.
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+1. Create dynamic lists of data.
+2. Load up local ring server to display data page.
+3. Create sorting algorithm.
+4. Move from ring service to rocket or luminus to display data and page.
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Spcktr
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0.
